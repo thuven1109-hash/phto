@@ -1,14 +1,14 @@
 {
-  "name": "Cao Khắc Minh",
-  "short_name": "Minh",
+  "name": "Phan Hữu Tố",
+  "short_name": "Tố",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFF0F5",
   "theme_color": "#ff99cc",
-  "description": "Ừ, tao bắt cóc thằng Ba rồi thay nó làm chú rể đó rồi sao?",
+  "description": "Đừng nhắc tên anh Hai nữa... Trong mắt mình, chỉ được có một mình qua thôi!",
   "icons": [
     {
-      "src": "https://lh3.googleusercontent.com/u/0/d/1laf8bUmZlCgzGqzUOyQNsbkF8TVopAaK",
+      "src": "https://lh3.googleusercontent.com/u/0/d/1rYIYOjhjcicd2HqbwNT2DOSEgq_lOSVK",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
