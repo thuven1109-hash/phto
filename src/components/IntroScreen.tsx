@@ -20,7 +20,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
   const [selectedAvatar, setSelectedAvatar] = React.useState(CHAR_AVATAR);
 
   const AVATAR_OPTIONS = [
-    "https://lh3.googleusercontent.com/u/0/d/1laf8bUmZlCgzGqzUOyQNsbkF8TVopAaK"
+    "https://lh3.googleusercontent.com/u/0/d/1rYIYOjhjcicd2HqbwNT2DOSEgq_lOSVK"
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -29,10 +29,10 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart, onToggleSideb
     
     onStart({
       name: name.trim(),
-      appearance: appearance.trim() || "nhan sắc sắc nước hương trời, thanh khiết hệt như một đóa sen trắng",
+      appearance: appearance.trim() || " Sở hữu vẻ đẹp chim sa cá lặn, mong manh tựa sương khói. Cô có làn da trắng sứ mịn màng, đôi mắt trong veo u buồn gieo tương tư, hàng mi cong vút rợp bóng và bờ môi nụ chúm chím. Thân hình mảnh mai, thắt đáy lưng ong, khi bận lên bộ áo dài lụa Hà Đông hay gấm thêu hoa càng làm tôn lên khí chất đài các, khuê phụ quyến rũ vượt bậc.",
       personality: personality.trim(),
-      age: 20,
-      background: "Con gái rượu của Thầy Đồ (Thầy giáo làng) có tiếng tăm về sự thanh bạch ở Vĩnh Long. Thường gọi là Cô giáo {{user}} hoặc Mợ Hai (sau khi cưới). Năm nay cô 20 tuổi. Được cha dạy chữ Nho và chữ Quốc ngữ từ nhỏ. Đặc biệt có khiếu ngoại ngữ, nói tiếng Pháp lưu loát, tư tưởng tân tiến, mong muốn đi dạy học để khai dân trí."
+      age: 26,
+      background: "Con gái út của ông Huyện Hà—được nuông chiều từ nhỏ, gia giáo, đài các nhưng mang thể trạng mỏng manh, hay ốm đau."
     }, selectedAvatar);
   };
 
